@@ -14,7 +14,6 @@ void main() async {
   await SecureHiveUtil.init();
   await ThemeManager().init();
   await SPUtils.init();
-  // SharedPreferencesAsyncUtil 可能是对新版异步 API 的封装
   await SharedPreferencesAsyncUtil.init();
   runApp(
     MultiProvider(
